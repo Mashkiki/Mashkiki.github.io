@@ -27,10 +27,27 @@ function updateGUI() {
 	document.getElementById(2).textContent = "+" + N(D.mul(1,D.pow(10,2))) + " Points/s | " + N(D.mul(25,D.pow(12,2))) + " Points"
 }
 
+function btnClick() {
+	points = D.add(points, 1)
+	if10Points()
+}
+
+function if10Points() {
+	if (c >= 1) {
+		document.getElementById("button").style.display = "none"
+	}
+
+	if (points >= 25) {
+		document.getElementById("button").style.display = "none"
+	}
+}
+
 function Click() {
     points = D.add(points, c)
 	document.getElementById("Points").textContent = "Points: " + " " + N(points)
 	document.getElementById("c").textContent = "Points/s: " + " " + N(c)
+	document.getElementById("button").style.display = "block"
+	if10Points()
 }
 
 window.setInterval(function() {

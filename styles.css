@@ -43,3 +43,29 @@ body {
     transition-duration: 175ms;
     border-radius: 11px;
 }
+
+.A {
+    background-color: #141414;
+    outline: none;
+    border: solid 4px white;
+    border-radius: 15px;
+    display: none;
+    text-align: center;
+    margin: 8px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 42px;
+    transition-duration: 125ms;
+}
+.A:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    transition-duration: 125ms;
+}
+.A:active {
+    color: white;
+    background-color: black;
+    transition-duration: 175ms;
+    border-radius: 16px;
+}
