@@ -69,3 +69,37 @@ body {
     transition-duration: 175ms;
     border-radius: 16px;
 }
+
+.rebirthButton {
+    background-color: #141414;
+    outline: none;
+    border: solid 4px rgb(255, 255, 0);
+    border-radius: 15px;
+    display: none;
+    text-align: center;
+    margin: 8px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 0);
+    font-size: 29px;
+    transition-duration: 125ms;
+}
+.rebirthButton:hover {
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+    color: black;
+    transition-duration: 125ms;
+}
+.rebirthButton:active {
+    color: rgb(255, 255, 0);
+    background-color: black;
+    transition-duration: 175ms;
+    border-radius: 16px;
+}
+
+#rebirths {
+    font-size: 20px;
+    display: none;
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font: bold;
+}
